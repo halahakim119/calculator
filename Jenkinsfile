@@ -36,7 +36,7 @@ pipeline {
 
         stage('Hello') {
             steps {
-                jiraComment body: 'This is a comment by Jenkins by hala hakim', issueKey: 'KAN-2'
+                jiraComment body: 'This is a comment by Jenkins by hakim', issueKey: 'KAN-2'
             }
         }
 
